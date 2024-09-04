@@ -35,3 +35,30 @@
     text-decoration: none;
     cursor: pointer;
   } 
+
+main {
+  background-color: rgb(38, 145, 109);
+  
+}
+
+
+body {
+  text-align: center;
+  flex-direction: column;
+  background-image:url(/peaceful.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.signint {
+    display: block;
+}
+
+.signupt {
+    display: block;
+}
+
+.hide {
+  display: none;
+}
+

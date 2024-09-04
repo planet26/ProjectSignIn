@@ -1,2 +1,23 @@
-# ProjectSignIn
-A simple sign in/up page
+# Modules 05-06 - Project 1 - ProjectSignIn
+
+## Overview
+
+This project is the first true demonstration of our group's progression towards a working comprehension of the fundamental techniques and languages which are conserved across practically all websites and applications. It effectively demonstrates the basics in which these fundamentals intertwine, from the front end, the interface with which you, the **User**, interact, to the back end, the inner machinations comprised of variables and logical functions which deliver the intended action. The capability to effectively produce a polished product which correctly correlates the front end to the back end, and everywhere in between, is referred to as **Full Stack Development**.
+One key aspect of any project is collaboration. As we saw on our first day of class, we come from diverse backgrounds, meaning we all have unique skills and ideas to contribute. While we are all familiar with the intricacies, or difficulties, presented in typical group projects, collaborating on code-based projects brings nuanced challenges when developers attempt to merge their work to form the final product. Our project also demonstrates our group's understanding of the de facto workflow established to prevent these problems. Regardless of our backgrounds, this marks our culmination thus far in the common goal we share: becoming a Full Stack Developer!
+
+## The Fundamentals 
+
+Any working application must have a structured entry point. It must be styled to cater to the User. It must provide the User with the service it provides using logical pathways. The respective languages to these three criteria are **Hypertext Markup Language**, known as .html, **Cascading Style Sheets**, known as .css, and, for now, **JavaScript**, known as .js.   
+When these three languages are properly articulated, a web application is born! Alas, no application is born perfect, and sometimes, we must work it, again and again, until we get it right. To avoid confliction of all these imperfect perfections made by multiple group members, local and online **repositories** are created, forming a fail-safe branched network and approval process for proper merging of source code. This project was created with the  **GitHub**  repository and workflow commands, a common practice.
+Logical pathways can become increasingly convoluted during development, hence a conceptual mock-up is often employed as one of the early steps, referred to as a **WireFrame**. The WireFrame for this project, however simple, displays the hypothetical scenarios a User would encounter upon using the application.  
+
+## Our Project 
+
+Our project is a simple sign in/sign up application. Using a **Modal**, an .html element which appears on top of the applications main window, the User is prompted to sign in with existing credentials, or, if the User is new, create a username and password. **Client-Side Storage**, the application's local storage, is employed to store existing credentials. 
+If the User chooses to create a new account, it is prompted to input a username and then a password. These credentials are pushed to the local storage, where they will be available upon return. The User is then presented with a message stating its credentials were successfully stored.
+If the User chooses to sign in with an existing account, it is prompted for its existing username then password. The User-supplied credentials are then cross-referenced with the those in the local storage. If no match is found, the User receives an error message indicating an invalid username and/or password with the options to re-enter its credentials or return to the sign in/sign up application. If the User provides valid credentials, a success message is displayed, and the user is redirected to a very special, super-secret new webpage. 
+The application serves to collect and store User-provided input, that being credentials supplied or created by the User, and provide feedback based off the validity of said credentials. Its end goal is to prompt the User to the entry of one matching the locally-stored usernames and passwords in order for the User to access the following page upon redirecting. 
+To style the application, a **CSS Framework**, a compiled library of .css styles, was used. Our group decided to use those made available by **Bootstrap**, a popular framework.
+
+We hope you enjoy using our application. 
+Created adherent to coding standards, semantics, and practices typical of .html, .css, and .js code. *You know the rules and so do I!*  

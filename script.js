@@ -43,9 +43,7 @@ const signIn = document.getElementById('signin').addEventListener('click', funct
     }
 })
 
-const redirectButton = document.getElementById('redirectbutton').addEventListener("mouseover", (event) => {});
 
-onmouseover = (event) => {};
 
 /*if(choiceOne === "Y" || choiceOne === "y") {
    
@@ -77,6 +75,43 @@ window.onclick = function(event) {
   }
 } 
 
+//var toggleSignInButton = document.getElementById('signinb').addEventListener('click', toggleSignIn()
+    
+//)
+
+// Initially hide the sign-in and sign-up sections
+document.querySelector('.signint').classList.add('hide');
+document.querySelector('.signupt').classList.add('hide');
+
+// Show the sign-up section and hide the sign-in section when signupb is clicked
+document.getElementById('signupb').addEventListener('click', function() {
+    document.querySelector('.signint').classList.toggle('hide');
+    document.querySelector('.signupt').classList.add('hide'); // Ensure sign-in is hidden
+    modal.style.display = "none";
+});
+
+// Show the sign-in section and hide the sign-up section when signinb is clicked
+document.getElementById('signinb').addEventListener('click', function() {
+    document.querySelector('.signupt').classList.toggle('hide');
+    document.querySelector('.signint').classList.add('hide'); // Ensure sign-up is hidden
+    modal.style.display = "none";
+});
 
 
+/*var signInScreen = document.getElementById('signint');
+ 
+var signUpScreen = document.getElementById('signupt');
 
+var toggleSignUpButton = document.getElementById('signupb').addEventListener('click', toggleSignUp() 
+
+)
+toggleSignInButton.onclick = function(){
+    modal.style.dislay = "none";
+    signInScreen.style.display = "block";
+    signUpScreen.style.display = "none";
+}
+toggleSignUpButton.onclick = function(){
+    modal.style.dislay = "none";
+    signInScreen.style.display = "none";
+    signUpScreen.style.display = "block";
+}*/

@@ -27,9 +27,10 @@
     
         
     <main class="form-signin w-100 m-auto">
+      <section class="signint">
       <form>
-        <img class="mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-        <h1 class="h3 mb-3 fw-normal">Sign Up Below</h1>
+        <img class="mb-4" src="/logo-black.png" alt="Logo" width="85" height="85">
+        <h1 class="h3 mb-3 fw-normal">Sign Up</h1>
     
         <div class="form-floating">
           <input type="email" class="form-control" id="signupInput" placeholder="name@example.com">
@@ -39,22 +40,16 @@
           <input type="password" class="form-control" id="signupPassword" placeholder="Password">
           <label for="floatingPassword">Password</label>
         </div>
-    
-        <div class="form-check text-start my-3">
-          <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
-          <label class="form-check-label" for="flexCheckDefault">
-            Remember Me
-          </label>
-        </div>
         <button id="signup" type="submit">Sign Up</button>
         <p class="mt-5 mb-3 text-body-secondary"></p>
       </form>
+      </section>
     </main>
 
     <main class="form-signin w-100 m-auto">
-        <form>
-          <img class="mb-4" src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
-          <h1 class="h3 mb-3 fw-normal">Sign In Below</h1>
+        <section class="signupt">
+      <form>
+          <h1 class="h3 mb-3 fw-normal">Sign In</h1>
       
           <div class="form-floating">
             <input type="email" class="form-control" id="signinInput" placeholder="name@example.com">
@@ -65,20 +60,12 @@
             <label for="floatingPassword">Password</label>
           </div>
       
-          <div class="form-check text-start my-3">
-            <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
-            <label class="form-check-label" for="flexCheckDefault">
-              Remember Me
-            </label>
-          </div>
           <button id="signin" type="submit">Sign In</button>
           <p class="mt-5 mb-3 text-body-secondary">©2024</p>
         </form>
+      </section>
       </main>
     
-
-<button id="redirectbutton">Redirect</button>
-
 
 <!-- The Modal -->
 <div id="myModal" class="modal">
@@ -87,13 +74,15 @@
   <div class="modal-content">
     <span class="close">&times;</span>
     <p>"Would you like to sign in?"</p> 
+    <button id="signinb">Sign In</button>
+    <button id="signupb">Sign Up</button>
   </div>
 
 </div> 
     
-    <script src="./script.js"></script>
-
-    </body>
     
+
+
+<script src="./script.js"></script>
 </body>
 </html>
