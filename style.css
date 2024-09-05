@@ -45,7 +45,7 @@ main {
 body {
   text-align: center;
   flex-direction: column;
-  background-image:url(/peaceful.png);
+  background-image:url(peaceful.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
