@@ -13,9 +13,9 @@ function Redirect() {
     localStorage.setItem("password", signupUserPassword);  
     
     if(localStorage.getItem("username") != ""&& localStorage.getItem("password")) {
-        prompt("You have successfully signed up"); 
+        alert("You have successfully signed up"); 
     }else {
-        prompt("Error");
+        alert("Error");
     }
 }
 )
@@ -26,7 +26,7 @@ const signIn = document.getElementById('signin').addEventListener('click', funct
     const signinPassword = document.getElementById('signinPassword').value;
 
     if(signinUserName === localStorage.getItem("username") && signinPassword === localStorage.getItem("password")) {
-              prompt("Welcome to the site.");
+              alert("Welcome to the site.");
               Redirect();
               setTimeout(function() {
                 Redirect();
@@ -39,7 +39,7 @@ const signIn = document.getElementById('signin').addEventListener('click', funct
                     
                 }
     }else{
-        prompt("Invalid username or password.");
+        alert("Invalid username or password.");
     }
 })
 
